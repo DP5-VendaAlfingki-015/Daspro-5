@@ -1,0 +1,16 @@
+program belajar2;
+uses crt;
+var
+awal,akhir:string;
+suhu:string;
+begin
+clrscr;
+        write('masukkan nama awal:');
+        readln(awal);
+        write('masukkan nama akhir:');
+        readln(akhir);
+        write('masukkan suhu:');
+        readln(suhu);
+        write('halo  ', awal , ' ',  akhir ,' hari ini bersuhu  ' ,suhu);
+        readln
+        end.

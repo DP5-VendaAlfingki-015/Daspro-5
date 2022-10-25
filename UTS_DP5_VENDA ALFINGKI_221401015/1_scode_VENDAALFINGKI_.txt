@@ -1,0 +1,23 @@
+program belajar;
+uses crt;
+var
+nama,waktu:string;
+
+        begin
+        clrscr;
+        write('masukkan nama:');
+        readln(nama);
+        write('masukan waktu:');
+        readln(waktu);
+        writeln('s');
+        writeln('e');
+        writeln('l');
+        writeln('a');
+        writeln('m');
+        writeln('a');
+        writeln('t');
+        writeln(waktu);
+        writeln(nama);
+        readln;
+
+end.
